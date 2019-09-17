@@ -219,15 +219,12 @@ img {
   color: #BAEAE4;
 }
 .menu {
-  display: flex;
   color: #BAEAE4;
-  flex-direction: row-reverse;
-  justify-content: space-around;
 }
 .menu .fas {
   display: flex;
   font-size: 3rem;
-  margin: 0.3rem;
+  margin: 0.3rem auto;
   padding: 0.5rem 2rem;
 }
 .menu .fas:hover {
@@ -236,33 +233,37 @@ img {
   transition: 1.5s;
 }
 .menu .menu-items {
+  width: 20%;
+  position: absolute;
+  background-color: #121210;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 .menu .menu-items .menu-link {
-  display: flex;
-  margin: 1rem;
-  padding: 0 1rem;
-  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
   text-decoration: none;
   color: #BAEAE4;
+  border-top: 1px solid #6A6E6F;
 }
 .menu .menu-items .menu-link:hover {
   color: #09AAB8;
   background-color: #002025;
   transition: 1.5s;
 }
+.menu .menu-items .menu-hidden {
+  display: none;
+}
 .KeyMenu {
-  display: flex;
   color: #BAEAE4;
-  flex-direction: row-reverse;
-  justify-content: space-around;
 }
 .KeyMenu .fas {
   display: flex;
   font-size: 3rem;
-  margin: 0.3rem;
+  margin: 0.3rem auto;
   padding: 0.5rem 2rem;
 }
 .KeyMenu .fas:hover {
@@ -271,15 +272,19 @@ img {
   transition: 1.5s;
 }
 .KeyMenu .menu-items {
+  width: 50%;
+  position: absolute;
+  background-color: #121210;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 500px;
 }
 .KeyMenu .menu-items .menu-link {
-  display: flex;
-  margin: 1rem;
-  padding: 0 1rem;
-  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
   text-decoration: none;
   color: #BAEAE4;
 }
@@ -287,4 +292,7 @@ img {
   color: #09AAB8;
   background-color: #002025;
   transition: 1.5s;
+}
+.KeyMenu .menu-items .menu-hidden {
+  display: none;
 }

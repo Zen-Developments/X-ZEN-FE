@@ -1,36 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 
 class KeyMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isMenuOpen: false,
+      isKeyMenuOpen: false,
     };
     this.toggleMenu = this.toggleMenu.bind(this);
   }
 
   toggleMenu() {
     this.setState(prevState => ({
-      isMenuOpen: !prevState.isMenuOpen
+      isKeyMenuOpen: !prevState.isKeyMenuOpen
     }));
   }
 
   render() {
-    const {isMenuOpen} = this.state
+    const {isKeyMenuOpen} = this.state;
     return (
       <div className='KeyMenu'>
-        {isMenuOpen
+        {isKeyMenuOpen
           ? <i onClick={ this.toggleMenu } className="fas fa-times"></i>
           : <i onClick={ this.toggleMenu } className="fas fa-key"></i>
         }
 
-        {isMenuOpen && <div id='item-drop' className='menu-items'>
-          <div>
-            <h1>COMING SOON!</h1>
-          </div>
-        </div>}
+        <div className="menu-items">
+          <h1 className={isKeyMenuOpen ? 'menu-link' : 'menu-link menu-hidden'}>COMING SOON!</h1>
+        </div>
       </div>
     )
   }

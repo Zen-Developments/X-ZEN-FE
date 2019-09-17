@@ -15,8 +15,8 @@ class Menu extends React.Component {
         },
         {
           id: 2,
-          text: 'About Me',
-          link: '/about',
+          text: 'Portfolio',
+          link: '/portfolio',
         },
         {
           id: 3,
@@ -38,16 +38,24 @@ class Menu extends React.Component {
     const {isMenuOpen, menuItems} = this.state
     return (
       <div className='menu'>
-        {isMenuOpen && <div id='item-drop' className='menu-items'>
-          {menuItems.map((item) => (
-            <Link to={item.link} key={ item.id } className='menu-link'>{ item.text }</Link>
-          ))}
-        </div>}
-
         {isMenuOpen
           ? <i onClick={ this.toggleMenu } className="fas fa-minus-square" />
           : <i onClick={ this.toggleMenu } className="fas fa-bars" />
         }
+
+        <div className="menu-items">
+          {menuItems.map((item) => (
+            <Link
+            to={item.link}
+            key={ item.id }
+            className={isMenuOpen
+              ? 'menu-link'
+              : 'menu-link menu-hidden'
+            }>
+              { item.text }
+            </Link>
+          ))}
+        </div>
       </div>
     )
   }
