@@ -272,13 +272,13 @@ img {
   transition: 1.5s;
 }
 .KeyMenu .menu-items {
-  width: 50%;
+  left: 80%;
+  width: 20%;
   position: absolute;
   background-color: #121210;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 500px;
 }
 .KeyMenu .menu-items .menu-link {
   width: 100%;
@@ -287,6 +287,7 @@ img {
   font-size: 18px;
   text-decoration: none;
   color: #BAEAE4;
+  border-top: 1px solid #6A6E6F;
 }
 .KeyMenu .menu-items .menu-link:hover {
   color: #09AAB8;
