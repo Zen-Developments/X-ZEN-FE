@@ -1,0 +1,76 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  body {
+    margin: 0;
+    padding: 0;
+    /* more styles */
+  }
+
+  .particles {
+    background-color: #121210;
+    position: fixed;
+    right: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+//HomeCard Component
+.HomeCard {
+  display: flex;
+  flex-direction: column;
+  margin: 18% auto;
+  max-width: 75%;
+  width: 100%;
+
+  .text {
+    width: 100%;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 6rem;
+      color: #BAEAE4;
+
+      span {
+        color: #09AAB8;
+      }
+    }
+
+    h2 {
+      font-size: 5.5rem;
+      color: #BAEAE4;
+    }
+  }
+
+  .btn {
+    display: flex;
+    margin: 3rem auto;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 1px 3px 5px 1px #002025;
+
+    text-decoration: none;
+    border: 0.5px solid #6A6E6F;
+    border-radius: 7px;
+    padding: 1rem 0;
+    background-color: #BAEAE4;
+    color: #121210;
+
+    i {
+      margin-left: 1.5rem;
+    }
+
+    &:hover {
+      background-color: #09AAB8;
+      box-shadow: 3px 5px 7px 3px black;
+      transition: 1.5s;
+    }
+  }
+}

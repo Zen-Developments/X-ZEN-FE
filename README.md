@@ -13,5 +13,6 @@ Front-end build for portfolio site
 ### JavaScript
 
 - [React](http://facebook.github.io/react) is used for UI.
-- [Redux](https://redux.js.org/) is used for state management
-- [React Router](https://reacttraining.com/react-router/) is used to aid in site routing
+- [Redux](https://redux.js.org/) is used for state management.
+- [React Router](https://reacttraining.com/react-router/) is used to aid in site routing.
+- [react-particles-js](https://github.com/Wufe/react-particles-js)is used for the animated background.
