@@ -11,7 +11,7 @@ const HomeCard = ({props}) => (
     </div>
 
     <div className="cta">
-      <Link to='/portfolio' className='btn'>Check out my Projects!<i class="fas fa-arrow-right"></i></Link>
+      <Link to='/portfolio' className='btn'>Check out my Projects!<i className="fas fa-arrow-right"></i></Link>
     </div>
   </div>
 );

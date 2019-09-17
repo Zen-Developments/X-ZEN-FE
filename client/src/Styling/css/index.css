@@ -205,3 +205,86 @@ img {
   box-shadow: 3px 5px 7px 3px black;
   transition: 1.5s;
 }
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #121210;
+}
+.navbar .logo {
+  display: flex;
+  font-size: 3rem;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  color: #BAEAE4;
+}
+.menu {
+  display: flex;
+  color: #BAEAE4;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.menu .fas {
+  display: flex;
+  font-size: 3rem;
+  margin: 0.3rem;
+  padding: 0.5rem 2rem;
+}
+.menu .fas:hover {
+  color: #09AAB8;
+  cursor: pointer;
+  transition: 1.5s;
+}
+.menu .menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu .menu-items .menu-link {
+  display: flex;
+  margin: 1rem;
+  padding: 0 1rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #BAEAE4;
+}
+.menu .menu-items .menu-link:hover {
+  color: #09AAB8;
+  background-color: #002025;
+  transition: 1.5s;
+}
+.KeyMenu {
+  display: flex;
+  color: #BAEAE4;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.KeyMenu .fas {
+  display: flex;
+  font-size: 3rem;
+  margin: 0.3rem;
+  padding: 0.5rem 2rem;
+}
+.KeyMenu .fas:hover {
+  color: #09AAB8;
+  cursor: pointer;
+  transition: 1.5s;
+}
+.KeyMenu .menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.KeyMenu .menu-items .menu-link {
+  display: flex;
+  margin: 1rem;
+  padding: 0 1rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #BAEAE4;
+}
+.KeyMenu .menu-items .menu-link:hover {
+  color: #09AAB8;
+  background-color: #002025;
+  transition: 1.5s;
+}
