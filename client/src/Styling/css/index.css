@@ -136,11 +136,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  background-color: #002025;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 8rem;
+  background-color: white;
+}
+.title {
+  font-family: 'Architects Daughter', cursive;
 }
 .Home {
   display: flex;
@@ -163,7 +169,7 @@ img {
 .HomeCard {
   display: flex;
   flex-direction: column;
-  margin: 18% auto;
+  margin: 15% auto;
   max-width: 75%;
   width: 100%;
 }
@@ -221,13 +227,13 @@ img {
 .menu {
   color: #BAEAE4;
 }
-.menu .fas {
+.menu i {
   display: flex;
   font-size: 3rem;
-  margin: 0.3rem auto;
-  padding: 0.5rem 2rem;
+  margin: 0.3rem 2rem;
+  padding: 0.5rem;
 }
-.menu .fas:hover {
+.menu i:hover {
   color: #09AAB8;
   cursor: pointer;
   transition: 1.5s;
@@ -260,13 +266,13 @@ img {
 .KeyMenu {
   color: #BAEAE4;
 }
-.KeyMenu .fas {
+.KeyMenu i {
   display: flex;
   font-size: 3rem;
-  margin: 0.3rem auto;
-  padding: 0.5rem 2rem;
+  margin: 0.3rem 2rem;
+  padding: 0.5rem;
 }
-.KeyMenu .fas:hover {
+.KeyMenu i:hover {
   color: #09AAB8;
   cursor: pointer;
   transition: 1.5s;
@@ -296,4 +302,48 @@ img {
 }
 .KeyMenu .menu-items .menu-hidden {
   display: none;
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.Contact h1 {
+  font-size: 5rem;
+  margin: 2rem auto;
+  color: #121210;
+}
+.Contact hr {
+  width: 80%;
+}
+.Contact .social-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Contact .social-links h2 {
+  font-size: 2.5rem;
+  margin: 1rem auto;
+  color: #121210;
+}
+.Contact .social-links .links {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  width: 50%;
+  justify-content: space-around;
+}
+.Contact .social-links .links a {
+  padding: 0.3rem;
+}
+.Contact .social-links .links i {
+  font-size: 5rem;
+  color: #09AAB8;
+}
+.Contact .social-links .links i:hover {
+  font-size: 6.5rem;
+  color: #6A6E6F;
+  cursor: pointer;
+  transition: 1s;
 }

@@ -20,8 +20,8 @@ class Menu extends React.Component {
         },
         {
           id: 3,
-          text: 'Projects',
-          link: '/projects',
+          text: 'Contact',
+          link: '/contact',
         },
       ]
     };
@@ -43,7 +43,7 @@ class Menu extends React.Component {
           : <i onClick={ this.toggleMenu } className="fas fa-bars" />
         }
 
-        <div className="menu-items">
+        <div className="menu-items title">
           {menuItems.map((item) => (
             <Link
             to={item.link}

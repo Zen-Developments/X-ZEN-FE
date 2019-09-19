@@ -1,0 +1,52 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 5rem;
+    margin: 2rem auto;
+    color: @cp-5;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    h2 {
+      font-size: 2.5rem;
+      margin: 1rem auto;
+      color: @cp-5;
+    }
+
+    .links {
+      display: flex;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+      width: 50%;
+      justify-content: space-around;
+
+      a {
+        padding: 0.3rem;
+      }
+
+      i {
+        font-size: 5rem;
+        color: @cp-2;
+
+        &:hover {
+          font-size: 6.5rem;
+          color: @cp-4;
+          cursor: pointer;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}

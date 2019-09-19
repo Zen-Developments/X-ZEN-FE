@@ -22,7 +22,7 @@ class KeyMenu extends React.Component {
     return (
       <div className='KeyMenu'>
         {isKeyMenuOpen
-          ? <i onClick={ this.toggleMenu } className="fas fa-times"></i>
+          ? <i onClick={ this.toggleMenu } className="far fa-window-close"></i>
           : <i onClick={ this.toggleMenu } className="fas fa-key"></i>
         }
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const HomeCard = ({props}) => (
-  <div className="HomeCard">
+  <div className="HomeCard title">
     <div className="text">
       <h1>Howdy, I'm <span>Joshua Harris</span>.</h1>
       <br></br>
@@ -11,7 +11,7 @@ const HomeCard = ({props}) => (
     </div>
 
     <div className="cta">
-      <Link to='/portfolio' className='btn'>Check out my Projects!<i className="fas fa-arrow-right"></i></Link>
+      <Link to='/portfolio' className='btn'>View my work!<i className="fas fa-arrow-right"></i></Link>
     </div>
   </div>
 );
