@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 70%;
+
+  .half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 47%;
+
+    input {
+      font-size: 2rem;
+      margin: 1.5rem 0;
+      width: 100%;
+      border-radius: 5px;
+      text-align: center;
+      font-family: @font;
+    }
+
+    button {
+      font-size: 2rem;
+      margin: 1.5rem auto;
+      width: 100%;
+      border-radius: 5px;
+      background-color: @cp-3;
+      color: @cp-1;
+      font-family: @font;
+
+      &:hover {
+        cursor: pointer;
+        background-color: @cp-2;
+        color: @cp-5;
+        transition: 1s;
+      }
+    }
+
+    textarea {
+      font-size: 2rem;
+      margin: 1.5rem auto;
+      width: 100%;
+      border-radius: 5px;
+      font-family: @font;
+    }
+  }
+
+  #left {
+    margin: 2rem;
+  }
+}

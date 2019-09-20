@@ -1,0 +1,56 @@
+.Forms{
+  width: 75%;
+  margin: 0 auto;
+
+  .Tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: red;
+
+    .tab {
+      width: 33.3%;
+      font-size: 2.5rem;
+      background-color: red;
+      border-right: 1px solid white;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        background-color: red;
+      }
+    }
+
+    .tab-active {
+      z-index: 2;
+      border-right: 1px solid red;
+      background-color: white;
+      color: black;
+
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+
+  .form-view {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    .form {
+      display: none;
+      width: 100%;
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 10px;
+      }
+    }
+
+    .form-selected {
+      display: flex;
+    }
+  }
+}

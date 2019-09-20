@@ -311,11 +311,12 @@ body {
 }
 .Contact h1 {
   font-size: 5rem;
-  margin: 2rem auto;
+  margin-top: 2.5rem;
   color: #121210;
 }
 .Contact hr {
   width: 80%;
+  margin: 2rem auto;
 }
 .Contact .social-links {
   display: flex;
@@ -324,7 +325,7 @@ body {
 }
 .Contact .social-links h2 {
   font-size: 2.5rem;
-  margin: 1rem auto;
+  margin-bottom: 1.5rem;
   color: #121210;
 }
 .Contact .social-links .links {
@@ -346,4 +347,49 @@ body {
   color: #6A6E6F;
   cursor: pointer;
   transition: 1s;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 70%;
+}
+form .half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 47%;
+}
+form .half input {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+}
+form .half button {
+  font-size: 2rem;
+  margin: 1.5rem auto;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #002025;
+  color: #BAEAE4;
+  font-family: 'Architects Daughter', cursive;
+}
+form .half button:hover {
+  cursor: pointer;
+  background-color: #09AAB8;
+  color: #121210;
+  transition: 1s;
+}
+form .half textarea {
+  font-size: 2rem;
+  margin: 1.5rem auto;
+  width: 100%;
+  border-radius: 5px;
+  font-family: 'Architects Daughter', cursive;
+}
+form #left {
+  margin: 2rem;
 }

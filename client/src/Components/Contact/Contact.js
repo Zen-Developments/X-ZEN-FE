@@ -1,5 +1,5 @@
 import React from 'react';
-import Forms from './Forms/Forms.js'
+import Form from './Form/Form.js'
 
 
 const Contact = ({props}) => (
@@ -8,7 +8,7 @@ const Contact = ({props}) => (
 
       <hr />
 
-      <Forms />
+      <Form />
 
       <hr />
 
