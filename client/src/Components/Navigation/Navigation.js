@@ -12,7 +12,7 @@ class Navigation extends React.Component {
         <Menu />
 
         <div className='logo'>
-          <i class="fas fa-home"></i>
+          <i className="fas fa-home"></i>
         </div>
 
         <KeyMenu />
